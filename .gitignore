@@ -1,0 +1,97 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+*.env
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+*.sublime-workspace
+*.code-workspace
+
+# =========================
+# Logs / Cache / Coverage
+# =========================
+*.log
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Model weights & training outputs
+# =========================
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.tflite
+*.engine
+*.trt
+*.pb
+*.h5
+*.t7
+*.pkl
+
+weights/
+runs/
+logs/
+results/
+
+# =========================
+# Dataset & caches
+# =========================
+datasets/
+dataset/
+rdd2022/
+
+data/*.cache
+data/*.zip
+data/*.tar
+data/*.tgz
+
+# =========================
+# Large archives / binaries
+# =========================
+*.zip
+*.tar.gz
+*.tgz
+*.whl
+
+# =========================
+# Misc
+# =========================
+*.aux
+*.out
+*.lof
+*.lot
+*.log.*
+*.tmp
